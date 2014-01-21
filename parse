@@ -1,2 +1,2 @@
 #!/bin/sh
-cat -n | ./indent | ./only $* | less -R
+./linenums | ./indent | ./only $* | less -R
